@@ -191,6 +191,7 @@ main .section-skills {
 main .section-skills .section-skills-list {
     display: flex;
     flex-direction: column;
+    padding-top: 3rem;
 }
 
 main .section-skills .section-skills-list .section-skills-list-upper {
@@ -200,18 +201,19 @@ main .section-skills .section-skills-list .section-skills-list-upper {
     column-gap: 1.5rem;
     row-gap: 1rem;
     border-bottom: 1px solid #212121;
-    padding-bottom: 1.5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
 }
 
 main .section-skills .section-skills-list .section-skills-list-upper div i,
 main .section-skills .section-skills-list .section-skills-list-lower div i {
-    font-size: 5rem;
-    padding-right: 0.5rem;
+    font-size: 2rem;
+    padding-right: 1rem;
 }
 
 main .section-skills .section-skills-list .section-skills-list-upper div span,
 main .section-skills .section-skills-list .section-skills-list-lower div span {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
